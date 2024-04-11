@@ -75,7 +75,8 @@ function NewFile() {
     
    }
      
-      router.push("/pages/files")
+     form.reset()
+     
 
     toast("Event has been created", {
       description: "Sunday, December 03, 2023 at 9:00 AM",
